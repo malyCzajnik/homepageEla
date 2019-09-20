@@ -1,0 +1,19 @@
+body {
+    background: #fefefe;
+}
+
+.mainHader{
+color: rgb(78, 90, 90);
+font-size: 40px;
+font-style: italic
+}
+.sectionHeader{
+color: rgb(119, 81, 81);
+font-size: 35px
+}
+.sectionText{
+    color: rgb(61, 50, 54);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic
+}
