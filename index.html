@@ -9,50 +9,85 @@
     <link href="styleE.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-    <header>
-        <a href="index.html"> Strona główna </a>
-        <a href="PodstronaStudiaNaAsp.html"> Studia na ASP</a>
-        <a href="PodstronaPracaWFirmieOdzieżowej.html"> Praca w firmie odzieżowej</a>
+<body class="body">
+    <header class="navigation">
+        <a class="navigation__link" href="index.html"> Strona główna </a>
+        <a class="navigation__link" href="PodstronaStudiaNaAsp.html"> Studia na ASP</a>
+        <a class="navigation__link" href="PodstronaPracaWFirmieOdzieżowej.html"> Praca w firmie odzieżowej</a>
     </header>
-    <main>
+    <main id="top" class="main">
         <header>
             <h1 class=mainHader>
                 Ela Skirlo
             </h1>
         </header>
 
-        <section>
-            <h2 class=sectionHeader>
+<section class="about">
+    <h2 class="about__header">
+        Kim jestem
+    </h2>
+    <p class="about__paragraf">
+        <img src="ela-zdjecie.jpg" alt="Ela zdjęcie" Class="abount__photo">
+Hej ! Jestem błym projektantem, który po 6 latach pracy w zaodzie zdecydował się na szaloną zmianę w swojej karierze, i postanowił zacząć pracę w IT. Ta strona jest wynikiem mojej nauki podstaw fron endu. Znajdą się tu moje zapiski o tym jak to się stało, że znalazłam się tu gdzie jestem.
+    </p>
+</section>
+
+        <section class="ASP">
+            <h2 class=ASP__header>
                 Studia na ASP - Dobry pomysł, czy pomyłka
             </h2>
-            <p class=sectionText>
-                Pytanie czy studia na ASP to jest najlepszy pomysł zaprząta mi głowę od dłuższego czasu....
-<a href="PodstronaStudiaNaAsp.html"> Czytaj dalej </a>
+            <p class=ASP__Paragraf>
+                    Pytanie czy studia na ASP to jest najlepszy pomysł zaprząta mi głowę od dłuższego czasu. I im jestem starsza tym bardziej wydaje mi się, że mogłam te 5 lat spędzonych na uczelni artystycznej wykorzystać lepiej. Ale jak wiadomo życie toczy się różnymi
+                    ścieżkami i w tamtym momencie mojego życia trochę nie miałam innego wyjścia. Koniec końców nie żałuje, ponieważ mój wybór doprowadził mnie do tego miejsca, w którym teraz jestem i nie jest najgorzej. Ale jak bym mogła magicznie cofnąć
+                    się w czasie do momentu, w którym jeszcze mogłabym wszystko zmienić pewnie drugi raz nie przeszłabym tej drogi. Studia artystyczne są dla ludzi, którzy naprawdę chcą w przyszłości zostać artystami i są w stanie poświęcić się temu celowi
+                    kompletnie. Jeśli myślisz o studiach artystycznych, bo np. lubisz rysować to raczej odradzałabym ten wybór. Idąc na takie studia trzeba mieć już dosyć jasno określony cel i to kim chce się zostać w przyszłości. Ja studiowałam projektowanie
+                    ubioru, ponieważ ten kierunek wydawał mi się najbardziej praktyczny z możliwych. Wydawało mi się, że ze wszystkich innych kierunków w przyszłości będzie dawał najwięcej możliwości pracy. Studia nie były ciężkie do skończenia, zawsze żartowałam,
+                    że żeby zostać ‘wywalonym’ z uczelni trzeba się naprawdę postarać. Ale to też nie znaczy, że studia na ASP są proste. Trzeba się mierzyć z wieloma trudnymi rzeczami. Praca artystyczna i tworzenie opierają się na czymś bardzo subiektywnym,
+                    czyli na guście, a jak mówiła moja koleżanka gust jest jak dupa każdy ma swoją. Wiec to co stworzyłeś w ramach pracy na studiach jest później poddawane ocenie przez profesora, który może mieć zupełnie inne poczucie estetyki niż Ty. Drugą
+                    sprawą jest to, że tworzenie jest trudnym procesem i nie rzadko pracując nad jakimś projektem wkładasz w to cząstkę siebie, potem w trakcie egzaminu niełatwo jest słuchać krytyki czegoś co dla ciebie było ważne co wypłynęło z twojego wnętrza.
+                    Ogólnie mierzenie się z krytyką to jedno z większych wyzwań na artystycznej uczelni. I czasem nie jest łatwo nie poddać się czarnym myślom ‘Czy ja się w ogóle do tego nadaję’ ‘Co ja tu robię?’ ‘Wszyscy są zdolniejsi ode mnie?’ itp. Ale
+                    jak już skończysz uczelnie jest jeszcze trudniej. Bo pojawia się pytanie co teraz? Czy starać się iść do jakiejś firmy czy próbować własnych sił i założyć działalność. Ja wspominam moje ukończenie studiów jako ogromny stres. Nie miałam
+                    pojęcia co powinnam robić. Już w trakcie studiów założyłam własną działalność i próbowałam sprzedawać swoje kolekcje. Ale niestety w moich czasach uczenie nie uczyły tego jak sobie radzić jako projektant w świecie. Co robić, jak prowadzić
+                    swoją działalność i na co uważać. Po dwóch latach miałam więcej długów niż przed studiami i jeszcze większe przerażenie w oczach co dalej. W końcu zdecydowałam się na pracę w dużej firmie odzieżowej. I było to bardzo fajne doświadczenie,
+                    ale o tym może napiszę już w innym rozdziale
+<a href="PodstronaStudiaNaAsp.html"> Przejdź do artykułu </a>
             </p>
         </section>
-        <section>
-            <h2 class=sectionHeader>
+        <section class=LPP>
+            <h2 class=LPP__header>
                 Praca w firmie odzieżowej
             </h2>
-            <p class=sectionText>
-                Z praca w firmie odzieżowej może być różnie, zależy do jakiej firmy trafisz... 
-                <a href="PodstronaPracaWFirmieOdzieżowej.html"> Czytaj daalej</a>
+            <p class=LPP__paragraf>
+                    Z praca w firmie odzieżowej może być różnie, zależy do jakiej firmy trafisz, potem zależy do jakiego zespołu w tej firmie trafisz, potem jakich ludzi w tym zespole będziesz miał. Moją pierwszą firmą było LPP, zaczęłam swoją przygodę jako asystent projektanta
+                    w Reserved w dziale dzianin (dla nie wtajemniczonych z dzianin robione są koszulki, bluzy, swetry i niektóre sukienki) a dokładniej byliśmy odpowiedzialni za damską kolekcję swetrów, bluz i sukienek dzianinowych. I ogólnie mogę stwierdzić
+                    po czasie, że miałam szczęście, zespół, do którego trafiłam był dobry. Na początku nie było łatwo, firma miała trochę problemów i nie do końca potrafiła sobie poradzić z prawidłowym zarządzaniem ludźmi, przez co marnowała bardzo dużo potencjału.
+                    Niestety jak to często bywa, że zmiany zaczyna się wprowadzać jak już jest bardzo źle. Ludzie zaczęli masowo odchodzić z pracy, wyniki firmy leciały w dół w zastraszającym tempie. Na szczęście nie było jeszcze za późno i w porę zostały
+                    wprowadzone spore zmiany. I po trudnych moich początkach zaczęło być fajnie. Po dwóch latach dostałam awans na młodszego projektanta i zaczęło się robić ciekawiej. Praca projektanta w firmie odzieżowej wiąże się z dużą ilością podróży.
+                    Najczęściej są to wyjazdy do dostawców, żeby szybciej i łatwiej pracować nad kolekcją. Czasem rzeczy, które próbowaliśmy wytłumaczyć miesiącami droga mailową byliśmy w stanie rozwiązać w przeciągu jednej wizyty u dostawcy. Więc odwiedziłam
+                    takie kraje jak Chiny, Turcja i Bangladesz. Wyjazdy to zawsze była kupa pracy i to do późnych godzin ale tez ogromna satysfakcja. Po ponad 4 latach musiałam odejść z pracy, ponieważ spełniało się jedno z moich największych marzeń, czyli
+                    przeprowadzka do innego kraju. I tak zaczął się kolejny rozdział ‘Szwajcaria’ 
+                <a href="PodstronaPracaWFirmieOdzieżowej.html"> Przejdź do artykułu</a>
             </p>
         </section>
-        <section>
-            <h2 class=sectionHeader>
+        <section class="Szwaicarja">
+            <h2 class=Szwaicarja__header>
                     Szwajcaria
             </h2>
-            <p class=sectionText>
-                   Po wielu przygodach spełniłam swoje największe marzenie i zamieszkałam za granicą... 
+            <p class=Szwaicaria__paragraf>
+                   Po wielu przygodach spełniłam swoje największe marzenie i zamieszkałam za granicą. Wiadmo jak to z marzeniami najczęściej nie jest tak pięknie jak sobie wyobrażaliśmy. Ale od początku. Do Szwaicarii trafiłam dzięki mojemu mężowi, który dostał propozycję pracy. Niewiele myśląc postanowiliśmy, że takiej okazji się nie marnuje i Piotrek (mój mąż) wyjechał, a ja zostałam w Polsce bo byłam zadowolona ze swojej pracy i chciałam jeszcze trochę popracować. Umówiliśmy się, że po roku życia na odległość, postanowimy co robimy dalej, czy Piotrek wraca do Polski czy ja dołączam do niego w Szwaicarii. Decyzja nie była łatwa bardzo się bałam, że nie znajde pracy w Szwaicarii, ale postanowiłam zaryzykować i rzuciłam pracę. W trakcie mojego 3 miesięcznego okresu wypowiedzenia w bardzo przypadkowy sposób znalazłam pracę! Okazało się, że jedna z firm odzieżowych szuka projektanta w Szwaicarii niewiele myśląc wysłałam Cv i portfolio i po ponad tygodniowym procesie rekrutacyjnym dostałam pracę. W końcu mogłam syprowadzać się do Szwaicarii z większym spokojem. Ale moje szczęście nie trwało długo praca okazała się kompletnym niewypałem. Zawsze myślałam, że jak będe pracowała w zagranicznej firmie to wtedy dopiero zacznę zdobywac prawdziwe doświadczenie i wiedzę, niestety realia były inne. Firma do której trafiłam była bardzo źle zorganizowana i tragicznie zarządzana. Każdy dzień pracy był narastająca frustrcją i nieszczęściem, czułam się stasznie, a mój szwaicarski sen zmieniał się w koszmar. Mogła bym napisać całą książkę o historiach jakie się zdażały w tej firmie, ale prawdopodobnie nikt by mi nie uwieżył bo trudno uwierzyć, że tak głupie i niedożeczne rzeczy się zdażają. 
                 </p> 
         </section>
-        <footer>
-                Strona o przygodach Eli
-        </footer>
-    </main>
+    <Section class="JS">
+        <h2> Test JS</h2>
+<p class="JS__paragraf JS__paragraf--JS" >
 
+</p>
+    </Section>
+    </main>
+    <footer Class="footer">
+            Strona o przygodach Eli <a href="#top" class="footer__link"> Na górę
+            </a>
+    </footer>
 </body>
 
 </html>

@@ -1,19 +1,98 @@
-body {
-    background: #fefefe;
+.body {
+    background: #fefefe
+
+}
+.main {
+    margin: 32px auto;
+    width: 100%;
+    max-width: 700px;
+    padding: 58px;
+}
+.navigation {
+padding: 20px;
+position: fixed;
+background: #fefefe;
+width: 100%;
+box-sizing: border-box;
+position: fixed;
+top: 0px;
+left: 0;
+}
+.navigation__link {
+padding: 0 5px 0 5px;
+color: #a2a77b;
+text-decoration: none;
+
 }
 
-.mainHader{
-color: rgb(78, 90, 90);
-font-size: 40px;
-font-style: italic
+.mainHader {
+color: #84a9c0;
 }
-.sectionHeader{
-color: rgb(119, 81, 81);
-font-size: 35px
+
+.about {
+    overflow: hidden;
+
 }
-.sectionText{
-    color: rgb(61, 50, 54);
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic
+.about__header {
+color: #98c1d9;
+}
+.about__paragraf {
+
+}
+.abount__photo {
+width: 100%;
+max-width:100px;
+display: block;
+float: left;
+margin: 0 10px 10px 0; 
+
+}
+
+
+.ASP {
+
+}
+.ASP__header {
+    color: #98c1d9;
+}
+.ASP__Paragraf {
+
+}
+
+.LPP {
+ 
+}
+.LPP__header {
+    color: #98c1d9;
+}
+.LPP__paragraf {
+
+}
+
+.Szwaicarja {
+   
+}
+.Szwaicarja__header {
+    color: #98c1d9;
+}
+.Szwaicaria__paragraf {
+
+}
+
+.JS {
+
+}
+
+.JS__paragraf {
+    
+}
+
+.footer {
+padding: 20px;
+}
+.footer__link {
+position: fixed;
+bottom: 50px;
+right: 20px;
+
 }
