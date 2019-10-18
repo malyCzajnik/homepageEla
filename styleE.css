@@ -58,6 +58,10 @@ margin: 0 10px 10px 0;
 .ASP__Paragraf {
 
 }
+.ASP__bottomLink {
+    color: #a2a77b;
+text-decoration: none;
+}
 
 .LPP {
  
@@ -67,6 +71,10 @@ margin: 0 10px 10px 0;
 }
 .LPP__paragraf {
 
+}
+.LPP__bottomLink {
+    color: #a2a77b;
+    text-decoration: none;
 }
 
 .Szwaicarja {
@@ -83,16 +91,23 @@ margin: 0 10px 10px 0;
 
 }
 
-.JS__paragraf {
+.JS__header {
+    color: #98c1d9;
+}
+.JS__paragraf{
     
 }
 
 .footer {
 padding: 20px;
+color: #a2a77b;
+
 }
 .footer__link {
 position: fixed;
 bottom: 50px;
 right: 20px;
+color: #a2a77b;
+text-decoration: none;
 
 }
